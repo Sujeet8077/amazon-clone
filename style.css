@@ -166,14 +166,18 @@ span{
 .shop-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    background: color #e2e7e6; ;
+    justify-content: center;
+    background: color #e2e7e6; 
+    gap: 15px;
+    padding: 20px;
 }
 
 .box{
    /* border: 2px solid black;*/
     height: 400px;
-    width: 23%;
+    width: 100%;
+    max-width: 300px;
+    flex-grow: 1;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
